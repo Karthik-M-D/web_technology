@@ -60,7 +60,7 @@ function convert(){
     } else if (f=="Indian Rupee" && t=="US Dollar"){
         document.getElementById('answer').innerHTML = (m*0.013);
     } else if ((f=="US Dollar" && t=="US Dollar") || (f=="Indian Rupee" && t=="Indian Rupee")){
-        document.getElementById('answer').innerHTML = "Select different currencies"
+        document.getElementById('answer').innerHTML = "Select different currencies";
     }
 }
 
