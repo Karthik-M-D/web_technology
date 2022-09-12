@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #a2d2ff;
+}
+
+.time-box{
+    width: 220px;
+    height:50px;
+    background-color: blue;
+    color: black;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 40px;
+}
+.box{
+    position: relative;
+}
+.road-img{
+    height: 300px;
+    width: 100%;
+}
+
+.box_col{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.car-img{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    width: 200px;
+}
+
+.stud{
+    width: 400px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid black;
+    color: black;
+}
