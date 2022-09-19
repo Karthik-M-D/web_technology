@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $('.car1-btn').click(function(){
+        $('.car1').toggle();
+    })
+    $('.car2-btn').click(function(){
+        $('.car2').toggle();
+    })
+    $('.car3-btn').click(function(){
+        $('.car3').toggle();
+    })
+    $('.car4-btn').click(function(){
+        $('.car4').toggle();
+    })
+    $('.car5-btn').click(function(){
+        $('.car5').toggle();
+    })
+})
